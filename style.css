@@ -1,0 +1,14 @@
+
+<style> Utilizamos essa tag para adicionar estilizações.
+{
+    Dentro de chaves, adicionamos as definições e selecionamos exatamente o que será personalizado.
+    EXEMPLO:
+    <style>
+        h1 {
+            color= red; cor da fonte.
+            font-size: 100px; tamanho da fonte.
+            background-color: red; cor de fundo.
+            font-weight: 100; largura da fonte.
+        }
+}
+ -->
