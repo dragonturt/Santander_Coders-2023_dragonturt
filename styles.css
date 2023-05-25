@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    font-size: 62.5%;
+}
+.t1
+ {
+    height: 800px;
+    width: 100%;
+    background-image: url(makaze.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+.p1
+{
+ color:aquamarine;
+ font-size: 5rem;
+
+}
+.p1:visited
+{
+color: orangered;  
+}
+.p1:hover
+{
+color: fuchsia;
+}
+.s1
+{
+color: aquamarine;
+font-size: 5rem;
+
+}
+.s1:visited
+{
+color: orangered;
+}
+
+.s1:hover
+{
+color: fuchsia;
+}
+.a1
+{
+font-size: 5em;
+}
