@@ -14,6 +14,9 @@
     name: Interação com banco de dados.
     value: Informações preenchidas previamente no input.
     input (inserir informações, sendo possível definir o tipo desse dado).
+    textarea (Área de texto para inserção de informações, área maior e personalizável)
+    select (Caixa de opções).
+    option (Opção da caixa select).
     O que podemos inserir no tipo do input:
     text: qualquer tipo de texto.
     number: números.
@@ -28,6 +31,7 @@
     checkbox: caixinha de seleção -  [checked: caixinha já aparece marcada], é possível marcar mais de uma.
     radio: outra forma de selecção, porém é possível marcar apenas uma opção.
     reset: limpar informações inseridas, reiniciar o formulário.
+    submit: botão para enviar informações.
      -->
      <br>
      <hr>
@@ -45,6 +49,14 @@
             <div>
             <label for="password">Senha:</label>
             <input type="password" id="password" placeholder="Informe sua senha." name="password">
+            </div>
+            <div>
+               
+                <select name="select" id="select">
+                <option value="" disabled>Selecione uma opção</option>
+                <option value="user">Usuário</option>
+                <option value="owner">Empresa</option>
+                </select>
             </div>
         </form>
       
